@@ -1,0 +1,17 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(5, 92, 5);
+}
+
+span{
+    color: red;
+}
+
+h2{
+    text-align: center;
+}
