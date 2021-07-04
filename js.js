@@ -84,6 +84,8 @@ function inicarJogo(){
             countFood = 0;
             document.getElementById("countFood").innerHTML = countFood;//pontuação
             jogo = setInterval(inicarJogo, 100);
+            } else{
+                location.reload(); //reinicar página
             }
         }
     }
