@@ -69,8 +69,7 @@ function inicarJogo(){
     for(i=1; i < snake.length; i++){ //checar colisao da cabeça com o corpo da cobra
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
-           // alert("Gamer Over");
-           let reload = confirm("Gamer Over! Deseja reiniciar o jogo?");
+           let reload = confirm("Gamer Over! Deseja tentar uma nova partida?");
            if(reload){
                 for(i=1;i<=countFood;i++){ //retirar as frutas da cobra
                     snake.pop();
